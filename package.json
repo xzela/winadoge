@@ -1,0 +1,31 @@
+{
+  "name": "winadoge",
+  "version": "0.0.1",
+  "description": "win a doge game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'such tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzela/winadoge.git"
+  },
+  "keywords": [
+    "doge",
+    "dogecoin",
+    "gamble",
+    "nodejs"
+  ],
+  "author": "Zeph LaFassett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xzela/winadoge/issues"
+  },
+  "homepage": "https://github.com/xzela/winadoge",
+  "dependencies": {
+    "express": "~3.4.8",
+    "connect": "~2.12.0",
+    "redis": "~0.10.0",
+    "connect-redis": "~1.4.6"
+  }
+}
